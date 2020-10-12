@@ -1,0 +1,8 @@
+/src/
+/example/
+/assets/
+**/.DS_Store
+.gitignore
+.babelrc.js
+.eslintignore
+package-lock.json

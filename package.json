@@ -1,0 +1,47 @@
+{
+  "name": "@cyber-tools/cyber-cdn",
+  "version": "2.2.1",
+  "description": "基于腾讯云openAPI开发的图片云端管理工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "cos",
+    "oss",
+    "cdn",
+    "node",
+    "tencent",
+    "cyber",
+    "shicheng.yu"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-spinners": "^2.4.0",
+    "colors": "^1.4.0",
+    "commander": "^6.0.0",
+    "cos-nodejs-sdk-v5": "^2.6.2",
+    "es6-promisify": "^6.1.1",
+    "execa": "^4.0.3",
+    "glob": "^7.1.6",
+    "inquirer": "^7.3.3",
+    "jsonfile": "^6.0.1",
+    "lodash": "^4.17.19",
+    "md5": "^2.2.1",
+    "module-alias": "^2.2.2",
+    "moment": "^2.27.0",
+    "open": "^7.1.0",
+    "ora": "^4.0.5",
+    "path-exists": "^4.0.0",
+    "progress": "^2.0.3",
+    "prompt": "^1.0.0",
+    "uuid": "^8.3.0"
+  },
+  "bin": "./index.js",
+  "repository": {
+    "type": "github.com",
+    "url": "https://github.com/cyber-tools/cyber-cdn.git"
+  }
+}
